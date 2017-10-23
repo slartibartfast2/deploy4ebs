@@ -7,7 +7,7 @@ _java -jar [JAR-NAME] CLEARCASE|GITHUB [LABEL-NAME] [OUTPUT-DIRECTORY]_
 
 # How to call in Java (for Local Directory)
 
-Before call from Java you must create a file named deploy4ebs.properties otherwise you will get file not found exception. You can find sample propery file under project directory.
+Before call from Java you must create a file named deploy4ebs.properties otherwise you will get fileNotFound exception. You can find sample property file under project directory.
 
     // Create EBS Deployment Package From Local Directory.
     long startTime = System.currentTimeMillis();

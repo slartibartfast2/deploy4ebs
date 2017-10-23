@@ -5,8 +5,9 @@ java -jar [JAR-NAME] LOCAL [OUTPUT-DIRECTORY] [INPUT-DIRECTORY]
 # How to call as an executable JAR (for SVN)
 java -jar [JAR-NAME] CLEARCASE|GITHUB [LABEL-NAME] [OUTPUT-DIRECTORY]
 
-
 # How to call in Java (for Local Directory)
+
+Before call from Java you must create a file named deploy4ebs.properties otherwise you will get file not found exception. You can find sample propery file under project directory.
 
     // Create EBS Deployment Package From Local Directory.
     long startTime = System.currentTimeMillis();

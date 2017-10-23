@@ -42,4 +42,4 @@ java -jar [JAR-NAME] CLEARCASE|GITHUB [LABEL-NAME] [OUTPUT-DIRECTORY]
     System.out.println("Execution time is " + formatter.format((endTime - startTime) / 1000d) + " seconds");*/
     
 # Input Format
-  You should create a directory named EBS and copy your application objects under this folder. You can find sample input directory format under INPUT-TEMPLATE directory.
+  You should create a directory named EBS and copy your application objects under this folder. You can find sample input directory format under INPUT-TEMPLATE.

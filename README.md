@@ -1,9 +1,9 @@
 # How to call as an executable JAR (for Local Directory)
-java -jar [JAR-NAME] LOCAL [OUTPUT-DIRECTORY] [INPUT-DIRECTORY]
+_java -jar [JAR-NAME] LOCAL [OUTPUT-DIRECTORY] [INPUT-DIRECTORY]_
 
 
 # How to call as an executable JAR (for SVN)
-java -jar [JAR-NAME] CLEARCASE|GITHUB [LABEL-NAME] [OUTPUT-DIRECTORY]
+_java -jar [JAR-NAME] CLEARCASE|GITHUB [LABEL-NAME] [OUTPUT-DIRECTORY]_
 
 # How to call in Java (for Local Directory)
 
